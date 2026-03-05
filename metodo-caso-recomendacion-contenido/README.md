@@ -65,7 +65,7 @@ Se han realizado cuatro pruebas con usuarios de distintos perfiles. El sistema r
 **Usuario más similar:** user_B (comparte Stranger Things y Dark con puntuaciones altas)  
 **Contenido recomendado:** Squid Game, Mindhunter y Ozark
 
-
+![objetivo user_A](objetivo_user_A.png)
 
 ---
 
@@ -75,7 +75,7 @@ Se han realizado cuatro pruebas con usuarios de distintos perfiles. El sistema r
 **Usuario más similar:** user_A  
 **Contenido recomendado:** Black Mirror, Mindhunter y Ozark
 
-
+![objetivo user_A](objetivo_user_B.png)
 
 ---
 
@@ -85,7 +85,7 @@ Se han realizado cuatro pruebas con usuarios de distintos perfiles. El sistema r
 **Usuario más similar:** user_D (comparte Ozark y Mindhunter)  
 **Contenido recomendado:** Dark, Squid Game y Black Mirror
 
-
+![objetivo user_A](objetivo_user_E.png)
 
 ---
 
@@ -96,7 +96,7 @@ Se han realizado cuatro pruebas con usuarios de distintos perfiles. El sistema r
 **Solución aplicada (Opción A):** se añadieron aristas contenido–contenido de forma manual (Dark → Stranger Things, Dark → Mindhunter, etc.)  
 **Contenido recomendado tras la corrección:** Stranger Things, Mindhunter y Ozark
 
-
+![objetivo user_A](objetivo_user_F.png)
 
 ---
 
