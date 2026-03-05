@@ -72,15 +72,28 @@ if __name__ == '__main__':
         ("user_D", "Dark",               3),
         ("user_D", "Mindhunter",         4),
         ("user_D", "Ozark",              5),
-        ("user_E", "Ozark",              5),
         ("user_E", "Mindhunter",         5),
+        ("user_E", "Ozark",              5),
         ("user_E", "Stranger Things",    2),
         ("user_F", "Dark",               3),
-
-
     ]
 
     G, perfiles = construir_grafo(interacciones)
+
+    G.add_edge("Stranger Things", "Dark",           weight=5)
+    G.add_edge("Stranger Things", "Squid Game",     weight=4)
+    G.add_edge("Stranger Things", "Mindhunter",     weight=3)
+    G.add_edge("Dark",            "Stranger Things", weight=5)
+    G.add_edge("Dark",            "Mindhunter",     weight=4)
+    G.add_edge("Dark",            "Ozark",          weight=3)
+    G.add_edge("Black Mirror",    "Mindhunter",     weight=4)
+    G.add_edge("Black Mirror",    "Ozark",          weight=3)
+    G.add_edge("Squid Game",      "Dark",           weight=4)
+    G.add_edge("Squid Game",      "Mindhunter",     weight=3)
+    G.add_edge("Mindhunter",      "Ozark",          weight=5)
+    G.add_edge("Mindhunter",      "Dark",           weight=4)
+    G.add_edge("Ozark",           "Mindhunter",     weight=5)
+    G.add_edge("Ozark",           "Black Mirror",   weight=3)
 
     objetivo = "user_A"
     print(f"=== Recomendaciones para {objetivo} ===")
