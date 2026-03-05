@@ -63,9 +63,9 @@ Se han realizado cuatro pruebas con usuarios de distintos perfiles. El sistema r
 
 **Historial:** Stranger Things, Black Mirror, Dark  
 **Usuario más similar:** user_B (comparte Stranger Things y Dark con puntuaciones altas)  
-**Contenido recomendado:** Squid Game
+**Contenido recomendado:** Squid Game, Mindhunter y Ozark
 
-![objetivo user_A](objetivo_user_A.png)
+
 
 ---
 
@@ -73,9 +73,9 @@ Se han realizado cuatro pruebas con usuarios de distintos perfiles. El sistema r
 
 **Historial:** Stranger Things, Dark, Squid Game  
 **Usuario más similar:** user_A  
-**Contenido recomendado:** Black Mirror, Mindhunter
+**Contenido recomendado:** Black Mirror, Mindhunter y Ozark
 
-![objetivo user_B](objetivo_user_B.png)
+
 
 ---
 
@@ -83,9 +83,9 @@ Se han realizado cuatro pruebas con usuarios de distintos perfiles. El sistema r
 
 **Historial:** Ozark, Mindhunter, Stranger Things (puntuación baja)  
 **Usuario más similar:** user_D (comparte Ozark y Mindhunter)  
-**Contenido recomendado:** Dark, Squid Game
+**Contenido recomendado:** Dark, Squid Game y Black Mirror
 
-![objetivo user_E](objetivo_user_E.png)
+
 
 ---
 
@@ -94,9 +94,9 @@ Se han realizado cuatro pruebas con usuarios de distintos perfiles. El sistema r
 **Historial:** únicamente Dark  
 **Problema detectado:** Dijkstra no encontraba aristas salientes desde los nodos de contenido y no generaba recomendaciones  
 **Solución aplicada (Opción A):** se añadieron aristas contenido–contenido de forma manual (Dark → Stranger Things, Dark → Mindhunter, etc.)  
-**Contenido recomendado tras la corrección:** Stranger Things, Mindhunter
+**Contenido recomendado tras la corrección:** Stranger Things, Mindhunter y Ozark
 
-![objetivo user_F](objetivo_user_F.png)
+
 
 ---
 
